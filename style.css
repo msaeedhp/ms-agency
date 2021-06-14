@@ -33,5 +33,15 @@ body {
     width: 7.5rem;
     height: 7.5rem;
     border-radius: 50%;
-    background-color: #FFC800;
+    background-color: #ffc800;
+}
+#second-section {
+    background-color: #F8F9FA;
+}
+#portfolio-item {
+    background-color: white;
+}
+#portfolio-img {
+    width: 100%;
+    height: auto;
 }
