@@ -77,3 +77,24 @@ body {
     border-radius: 50%;
     background-color: #ffc800;
 }
+#sixth-section {
+    background-image: url("./assets/img/map-image.png");
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 767px) {
+    #sixth-section {
+        height: auto;
+    }
+}
+#my-btn {
+    color: #f8f9fa !important;
+    height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+}
