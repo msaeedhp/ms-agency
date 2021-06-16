@@ -10,7 +10,7 @@ body {
     height: 2rem;
 }
 .bg-header {
-    background-image: url("header-bg.jpg");
+    background-image: url("./assets/img/header-bg.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
     background-color: #ffc800;
 }
 #second-section {
-    background-color: #F8F9FA;
+    background-color: #f8f9fa;
 }
 #portfolio-item {
     background-color: white;
@@ -44,4 +44,36 @@ body {
 #portfolio-img {
     width: 100%;
     height: auto;
+}
+#about-logo {
+    width: 10vw;
+    border: 5px solid rgb(243, 237, 237);
+}
+#fourth-section {
+    background-color: #f8f9fa;
+}
+#team-avatar {
+    border: 10px solid rgb(243, 237, 237);
+    border-radius: 50%;
+    width: 15rem;
+}
+@media (min-width: 768px) {
+    #about-div {
+        border-right: 3px solid rgb(243, 237, 237);
+        height: 400px;
+    }
+}
+@media (max-width: 767px) {
+    #about-div {
+        width: 10%;
+        border-right: 3px solid rgb(243, 237, 237);
+        height: 400px;
+        margin-right: 2rem;
+    }
+}
+#second-circle {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #ffc800;
 }
